@@ -1,0 +1,79 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/user/members/withdrawal/withdrawal",
+    "pages/user/comment/comment",
+    "pages/comments/comments",
+    "pages/integral/integral",
+    "pages/integral/product/detail",
+    "pages/groupon/groupon",
+    "pages/groupon/product/detail",
+    "pages/snap_up/snap_up",
+    "pages/snap_up/product/detail",
+    "pages/rituall/rituall",
+    "pages/user/members/recommend/recommend",
+    "pages/user/members/bill/bill",
+    "pages/search/search",
+    "pages/user/members/members",
+    "pages/user/members/application/application",
+    "pages/user/members/qr_code/qr_code",
+    "pages/address/newAddress/newAddress",
+    "pages/product/detail",
+    "pages/user/user", 
+    "pages/user/shoucang",
+    "pages/user/dingdan",
+    "pages/user/tuihuo",
+    "pages/order/pay",
+    "pages/order/detail",
+    "pages/order/downline",
+    "pages/cart/cart",
+    "pages/listdetail/listdetail",
+    "pages/address/address",
+    "pages/address/user-address/user-address",
+    "pages/ritual/ritual",    
+    "pages/shop_store/shop_store",
+    "pages/no_network/no_network",
+    "pages/user/distribution/distribution",
+    "pages/map/map",
+    "pages/category/classify/classify",
+    "pages/aboutus/aboutus",
+    "pages/contact/contact"
+      ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "鱼传二手书",
+    "navigationBarTextStyle":"black"
+  },
+   "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#FF8C00",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"images/icons/btn-tabs_01.png",
+      "selectedIconPath":"images/icons/btn-tabs_07.png",
+      "text": "首页"
+    }, 
+        {
+      "pagePath": "pages/category/index",
+      "iconPath":"images/icons/btn-tabs_03.png",
+      "selectedIconPath":"images/icons/btn-tabs_08.png",
+      "text": "商品"
+    },
+       {
+      "pagePath": "pages/cart/cart",
+      "iconPath":"images/icons/btn-tabs_05.png",
+      "selectedIconPath":"images/icons/btn-tabs_09.png",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "iconPath":"images/icons/btn-tabs_06.png",
+      "selectedIconPath":"images/icons/btn-tabs_10.png",
+      "text": "我的"
+    }]
+  }
+}
